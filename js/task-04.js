@@ -9,8 +9,6 @@ incrementButton.addEventListener("click", () => {
   valueElement.textContent = counterValue;
 });
 decrementButton.addEventListener("click", () => {
-  if (counterValue > 0) {
-    counterValue--;
-    valueElement.textContent = counterValue;
-  }
+  counterValue--;
+  valueElement.textContent = counterValue;
 });
